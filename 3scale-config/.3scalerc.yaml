@@ -1,0 +1,5 @@
+:remotes:
+  meu-remote:
+  # insira os dados para conexão com o 3scale
+    :authentication: token
+    :endpoint: https://meu-3scale-admin.3scale.net
