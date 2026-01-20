@@ -1,0 +1,8 @@
+services:
+  3scale-toolbox:
+    build: .
+    container_name: 3scale-toolbox
+    volumes:
+      - .:/workspace
+      - ./3scale-config:/root 
+    working_dir: /workspace
